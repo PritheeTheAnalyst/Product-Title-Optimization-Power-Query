@@ -1,6 +1,7 @@
 ## 📌 Introduction
 
 This project focuses on generating a shorter, optimized version of product titles from a dataset. The original Title column contains detailed product information, which can be lengthy and inconsistent.
+<img width="1920" height="960" alt="Screenshot (487)" src="https://github.com/user-attachments/assets/e9b18820-0860-40a6-8aa5-2abd8c58bb6a" />
 
 The goal is to create a short_title feature that improves readability and supports better SEO while retaining essential product information.
 
@@ -51,9 +52,6 @@ Text.Combine(
         Text.Split([Column1] & " " & [Column2], " ")
     ),
 " ")
-
-## Dataset Image
-<img width="1920" height="960" alt="Screenshot (487)" src="https://github.com/user-attachments/assets/e9b18820-0860-40a6-8aa5-2abd8c58bb6a" />
 
 ## 🚀 Impact
 1. Improved readability of product titles
